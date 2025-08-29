@@ -1,0 +1,25 @@
+{
+  "name": "bajaj-project",
+  "version": "1.0.0",
+  "description": "Bajaj Test Question – REST API for array processing (/bfhl)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "rest",
+    "bfhl",
+    "vit"
+  ],
+  "author": "Shailesh Mishra - 22BCE2006",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
