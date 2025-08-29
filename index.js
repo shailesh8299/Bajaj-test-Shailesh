@@ -65,7 +65,8 @@ app.post("/bfhl", (req, res) => {
         const num = parseInt(str, 10);
         if (num % 2 === 0) {
           even_numbers.push(num.toString()); 
-          odd_numbers.push(num.toString());
+        }else{
+            odd_numbers.push(num.toString());
         }
         sum += num;
       } else if (/^[a-zA-Z]+$/.test(str)) {
